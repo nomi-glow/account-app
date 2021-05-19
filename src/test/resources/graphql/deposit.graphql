@@ -1,0 +1,7 @@
+mutation {
+  deposit (accountId: 1, amount: 7.4) {
+    id
+    name
+    balance
+  }
+}
